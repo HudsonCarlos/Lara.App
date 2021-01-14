@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lara", "Lara\Lara.csproj", "{CF019F6C-960A-4024-BB38-B206BC0F89BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lara", "src\Lara\Lara.csproj", "{CF019F6C-960A-4024-BB38-B206BC0F89BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lara_MP", "Lara_MP\Lara_MP.csproj", "{1803742D-9ECF-434C-8556-141372860D49}"
 EndProject
