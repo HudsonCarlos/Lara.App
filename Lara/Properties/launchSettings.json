@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lara": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Lara\\Exe"
+    }
+  }
+}
