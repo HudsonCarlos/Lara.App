@@ -15,10 +15,12 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="170"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Border Grid.Row="0" BorderBrush="{StaticResource SecondaryHueMidBrush}" BorderThickness="0 0 0 1">
+        <Border Grid.Row="0" Grid.Column="2" BorderBrush="{StaticResource SecondaryHueMidBrush}" BorderThickness="0 0 0 1">
             <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
                 <Button x:Name="btnMinimizar" Style="{StaticResource MaterialDesignFlatButton}" Click="ClickBotao">
                     <materialDesign:PackIcon Kind="WindowMinimize" VerticalAlignment="Center" HorizontalAlignment="Center"/>
@@ -32,7 +34,7 @@
             </StackPanel>
         </Border>
 
-        <Border Grid.Row="2">
+        <Border Grid.Row="2" Grid.Column="2">
             <StackPanel Orientation="Horizontal" Background="{StaticResource SecondaryHueMidBrush}">
                 <materialDesign:PackIcon Kind="WindowClose" Foreground="White" Margin="4,0,4,0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 <TextBlock x:Name="txbLogExecucao" Grid.Row="2" Text="Lara Sistemas." FontSize="10" Foreground="White" VerticalAlignment="Center" Width="368" />
